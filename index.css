@@ -1,0 +1,137 @@
+
+:root {
+    --bs-body-font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+body {
+    --bs-body-font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif  !important;
+}
+.todo_Container {
+    width: 900px;
+    margin: auto;
+    background-color: #d6d7ef;
+    min-height: 700px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+h1 {
+    min-width: 200px;
+    color: white;
+
+}  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #9395d3;
+    /* padding-top: 100px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    color: white;
+    font-size: 3rem;
+}
+
+.firstdiv {
+    width: 67%;
+    border: 1px solid white;
+}
+
+.seconddiv {
+    width: 27%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 500px;
+    position: relative;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.hfour {
+    color: #9395d3;
+}
+ .hfive {
+    color: #9395d3;
+ }
+
+button {
+    width: 30%;
+    display: block;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+}
+
+
+textarea{
+    margin-bottom: 10px;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+li{
+    height:  70px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px 15px;
+    /* padding-left: 15px; */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.delete {
+    cursor: pointer;
+}
+i{
+    color: #9395d3;
+    margin-left: 10px;
+}
+
+#activeTodos {
+    width: 70%;
+    min-height: 40%;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: 5px;
+    color: #9395d3;
+}
+#completedTodos {
+    width: 70%;
+    min-height: 40%;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-top: 15px;
+    color: #9395d3;
+}
